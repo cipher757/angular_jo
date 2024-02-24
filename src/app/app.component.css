@@ -1,0 +1,39 @@
+body {
+  font: 25px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #3b3b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  padding: 0 200px; /* Adiciona espaços nas laterais */
+}
+
+h1, h2 {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  border-bottom: 10px solid #aaa;
+  background-color: #3b3b3b;
+  color: #ddd;
+  padding: 15px;
+  text-align: center; /* Centraliza o texto */
+  width: 100%; /* Defini a largura total */
+}
+
+h2 {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #DDD;
+  padding-left: 5px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.secao {
+  background-color: #eee;
+  border-bottom: 10px solid #eee;
+  padding-left: 30px;
+  width: 100%; /* Defini a largura total */
+}
